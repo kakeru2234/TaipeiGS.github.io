@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./swiper/css/swiper.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>台北電玩展-首頁</title>
+</head>
+
+<body onload="clock();return true" scroll="no">
+    <div class="BG_MAIN">
+        <div class="starIn">
+            <div id="stars"></div>
+            <div id="stars2"></div>
+            <div id="stars3"></div>
+        </div>
+
+        <a href="#banner">
+            <div class="topBottom">
+
+            </div>
+        </a>
+        <nav>
+            <!-- <img src="./TGSpicture/TOP_hover.png" alt=""> -->
+            <div class="container">
+                <a href="#page1_title" style="text-decoration:none;">
+                    <div class="navBottom">TGS</div>
+                </a>
+                <a href="#page1_2" style="text-decoration:none;">
+                    <div class="navBottom">TCA</div>
+                </a>
+                <a href="#page2_title" style="text-decoration:none;">
+                    <div class="navBottom">B2C</div>
+                </a>
+                <a href="#page3_title" style="text-decoration:none;">
+                    <div class="navBottom">B2B</div>
+                </a>
+            </div>
+        </nav>
+        <div id="banner">
+            <div class="bgColor"></div>
+            <div class="swiper-container Bannerbackground">
+                <div class="swiper-wrapper">
+                    <!-- <img src="./TGSpicture/titleImg_01.jpg" alt=""> -->
+                    <div class="swiper-slide" style="background-image: url('./TGSpicture/titleImg_01.jpg');"></div>
+                    <div class="swiper-slide" style="background-image: url('./TGSpicture/titleImg_02.jpg');"></div>
+                    <div class="swiper-slide" style="background-image: url('./TGSpicture/titleImg_03.jpg');"></div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="timeCountDown">
+
+                <table align='center' height="800">
+                    <tr>
+                        <td>
+                            <!--將日期資料用form的方式來表示-->
+                            <fieldset>
+                                <legend>距離電玩展倒數</legend>
+                                <form name="formnow">
+                                    <input type="text" name="dd" size="1">天
+                                    <input type="text" name="hh" size="2">時
+                                    <input type="text" name="mm" size="2">分
+                                    <input type="text" name="ss" size="2">秒
+                                </form>
+                            </fieldset>
+                        </td>
+                    </tr>
+                </table>
+
+
+            </div>
+            <div class="logoBox"></div>
+        </div>
+        <div id="page1_title">關於TGS</div>
+        <div class="bgMask1">
+            <div class="container page1">
+                <div class="row" data-aos="fade-up">
+                    <div class=" card  col-12 p-3 col-md-5 ">
+                        <div class="card1"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">簡介</h5>
+                            <p class="card-text">是全台唯一以「遊戲產業」為主、兼具B2B與B2C的綜合性展覽
+                                與粉絲一起討論遊戲及展覽相關議題
+                                努力為粉絲爭取福利，舉辦更多精彩與好康活動
+                                秉持著與粉絲同樂的精神，積極提供有趣玩樂訊息與獨家回饋
+                                宅男女也可以是陽光男氣質女，跟大家一起走出戶外，結交更多朋友
+                            </p>
+                            <a href="http://tgs.tca.org.tw/index_portal.php" class="btn btn-primary">了解更多</a>
+                        </div>
+                    </div>
+                    <div class=" card  col-12 p-3  col-md-5">
+                        <div class="card2"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">展覽演變</h5>
+                            <p class="card-text">
+                                1993年，台北市電腦公會舉辦了第一屆台北國際電腦娛樂展覽會，當時是在推廣益智電玩，並且邀請台灣的遊戲開發廠商說明遊戲開發過程，基本上是台北國際電玩展的雛型；但後來，此項展覽因為較走向大眾路線，因此在其後被台北電腦多媒體展合併。
+                                2002年，台北市電腦公會舉辦的台北春節電腦應用暨多媒體特展中，線上遊戲與電腦遊戲受到大眾的喜愛；加上國際廠商與台灣廠商的商機需求熱烈的情況。
+                                2003年2月，正式與台北電腦多媒體展切割，並獨立舉辦「台北國際電玩展」。
+                            </p>
+                            <a href="http://tgs.tca.org.tw/index_portal.php" class="btn btn-primary">了解更多</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="page2_title"></div> -->
+            <div class="BG_1_2 container-fluid">
+                <div id="page1_2" class=" container-fluid">
+                    <div class="wordIn" data-aos="zoom-in" data-aos-duration="1500"><img
+                            src="./TGSpicture/introWord.png" alt=""></div>
+                    <div class="row title1_2">
+                        <div class="Introduce col-12 col-md-6" data-aos="fade-right" data-aos-delay="1500">
+                            <img src="./TGSpicture/tca_logo.png" alt="">
+                            <div class="introText">
+                                <div class="cont">
+                                    台北市電腦商業同業公會，簡稱「台北市電腦公會」，是在1974年11月5日成立的同業公會，<br>以推廣台灣資訊產業發展為主。除了針對資訊產業進行相關交流活動，<br>另外也會在台北世界貿易中心辦理國內各大資訊展覽，以及組團參與國際性資訊展覽，<br>是台灣資訊產業公會與協會組織的一大龍頭，<br>目前由童子賢擔任理事長。
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Other_List col-12 col-md-6" data-aos="fade-left" data-aos-delay="2000">
+                            <div class="listTitle">
+                                <h1>相關的展覽會</h1>
+                            </div>
+                            <div class="listAllItem">
+                                <div class="listIn"><a href="http://tgs.tca.org.tw/index_portal.php">台北國際電腦展</a></div>
+                                <div class="listIn"><a href="http://smartcity.org.tw/index.php">智慧城市展</a></div>
+                                <div class="listIn"><a href="https://www.dgtaipei.tw/?lang=zh-tw">台北國際數位內容交流會</a></div>
+                                <div class="listIn"><a href="http://show.tca.org.tw/softex/">台北春季電腦軟體展</a></div>
+                                <div class="listIn"><a href="https://www.computextaipei.com.tw/zh_TW/index.html">台北電腦應用展</a></div>
+                                <div class="listIn"><a href="http://www.optotaiwan.com/nano/">台灣國際奈米週</a></div>
+                                <div class="listIn"><a href="https://www.itmonth.org.tw/rwd/">資訊月</a></div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- <div class="page2_title"></div> -->
+        <div id="page2_title">B2C-玩家區</div>
+        <div class="page2 container">
+            <div class="topSelecter">
+                <!-- 上面的選單 -->
+                <div class="selectItem ">數位內容成果展</div>
+                <div class="selectItem">封印任務</div>
+                <div class="selectItem active">ShowGirl票選</div>
+                <div class="selectItem">其他活動</div>
+            </div><!-- 4個選項 -->
+
+
+            <div class="eventBox">
+                <!-- 最佳遊戲 -->
+                <div class="event event_1 ">
+                    <div class="row">
+                        <div class="leftArea col-12 col-md-4">
+                            <h2>10大人氣行動遊戲</h2>
+                            <!-- 《Garena傳說對決》<br>
+                            《Free Fire-我要活下去》<br>
+                            《超異域公主連結☆Re：Dive》<br>
+                            《Fate／Grand Order》<br>
+                            《永遠的7日之都》<br>
+                            《黑色沙漠MOBILE》<br>
+                            《白貓 Project》<br>
+                            《少女前線》<br>
+                            《Garena 魂斗羅：歸來》<br>
+                            《爐石戰記®：狗頭人與地下城™》 -->
+                            <div class="best10Area">
+                                <div class="best10 active">《Garena傳說對決》</div>
+                                <div class="best10">《Free Fire-我要活下去》</div>
+                                <div class="best10">《超異域公主連結☆Re：Dive》</div>
+                                <div class="best10">《Fate／Grand Order》</div>
+                                <div class="best10">《永遠的7日之都》</div>
+                                <div class="best10">《白貓 Project》</div>
+                                <div class="best10">《少女前線》</div>
+                                <div class="best10">《Garena 魂斗羅：歸來》</div>
+                                <div class="best10">《爐石戰記®：狗頭人與地下城™》</div>
+                                <div class="best10">《黑色沙漠MOBILE》</div>
+                            </div>
+                            <div class="best10Picture">
+                                <div class="best10Pic active"><img src="./TGSpicture/best10Pic01.jpg" alt=""></div>
+                                <div class="best10Pic "><img src="./TGSpicture/best10Pic02.png" alt=""></div>
+                                <div class="best10Pic "><img src="./TGSpicture/best10Pic03.jpg" alt=""></div>
+                                <div class="best10Pic"><img src="./TGSpicture/best10Pic04.png" alt=""></div>
+                                <div class="best10Pic"><img src="./TGSpicture/best10Pic05.jpg" alt=""></div>
+                                <div class="best10Pic"><img src="./TGSpicture/best10Pic06.png" alt=""></div>
+                                <div class="best10Pic"><img src="./TGSpicture/best10Pic07.png" alt=""></div>
+                                <div class="best10Pic"><img src="./TGSpicture/best10Pic08.png" alt=""></div>
+                                <div class="best10Pic "><img src="./TGSpicture/best10Pic09.png" alt=""></div>
+                                <div class="best10Pic"><img src="./TGSpicture/best10Pic10.png" alt=""></div>
+                            </div>
+
+                        </div>
+                        <div class="rightArea col-12 col-md-8">
+
+                            <div class="bestGameArea">
+                                <div class="GamePrize">最佳台灣獨立遊戲</div>
+                                <div class="gamePicture"><img src="./TGSpicture/BestGame01.jpg" alt="">
+
+
+                                </div>
+                            </div>
+                            <div class="bestGameArea">
+                                <div class="GamePrize">最佳台灣研發遊戲</div>
+                                <div class="gamePicture"><img src="./TGSpicture/BestGame01.jpg" alt="">
+
+
+                                </div>
+                            </div>
+                            <div class="bestGameArea">
+                                <div class="GamePrize">最佳線上遊戲</div>
+                                <div class="gamePicture"><img src="./TGSpicture/BestGame04.jpg" alt="">
+
+
+                                </div>
+                            </div>
+                            <div class="bestGameArea">
+                                <div class="GamePrize">最佳網頁遊戲</div>
+                                <div class="gamePicture"><img src="./TGSpicture/BestGame05.jpg" alt="">
+
+
+                                </div>
+                            </div>
+                            <div class="bestGameArea">
+                                <div class="GamePrize">最佳單機遊戲</div>
+                                <div class="gamePicture"><img src="./TGSpicture/BestGame06.jpg" alt="">
+
+
+                                </div>
+                            </div>
+                            <div class="bestGameArea">
+                                <div class="GamePrize">最佳遊樂器遊戲</div>
+                                <div class="gamePicture"><img src="./TGSpicture/BestGame07.jpg" alt="">
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="InBox">
+                            <div class="InLeft"><img src="./TGSpicture/GamePicIn01.png" alt=""></div>
+                            <div class="InRight">
+                                <div class="word">
+                                    由台灣獨立遊戲團隊聖堂遊戲開發的《永恆的賽妮亞-雨後的紫陽花-》，
+                                    是一款劇情導向角色扮演手遊，簡單暢快的單手操作介面，細膩精緻的畫風，
+                                    加上引人入勝的劇情，讓《永恆的賽妮亞-雨後的紫陽花-》
+                                    成為玩家心目中臺灣研發遊戲的首選。
+                                </div>
+
+                            </div>
+                            <div class="InEsc"><img src="./TGSpicture/cancel.png" alt=""></div>
+
+                        </div>
+                        <div class="InBox">
+                            <div class="InLeft"><img src="./TGSpicture/GamePicIn01.png" alt=""></div>
+                            <div class="InRight">
+                                <div class="word">
+                                    由台灣聖堂遊戲開發製作的獨立手機遊戲《永恆的賽妮亞-雨後的紫陽花-》
+                                    以扣人心弦的劇情，結合簡單容易上手的遊戲內容，並在持續改版與完善內容下，
+                                    受到台灣玩家推崇，獲得本屆臺灣獨立遊戲金獎。
+                                </div>
+
+                            </div>
+                            <div class="InEsc"><img src="./TGSpicture/cancel.png" alt=""></div>
+
+                        </div>
+                        <div class="InBox">
+                            <div class="InLeft"><img src="./TGSpicture/GamePicIn02.png" alt=""></div>
+                            <div class="InRight">
+                                <div class="word">
+                                    今年蟬聯人氣王寶座的 MOBA
+                                    遊戲《英雄聯盟》，以豐富的角色與戰術運用為人稱道，今年再度獲得玩家肯定，奪得線上遊戲金獎。《英雄聯盟》不僅成功帶動台灣電競熱潮也是全球熱門電競賽事項目之一。
+                                </div>
+
+                            </div>
+                            <div class="InEsc"><img src="./TGSpicture/cancel.png" alt=""></div>
+
+                        </div>
+                        <div class="InBox">
+                            <div class="InLeft"><img src="./TGSpicture/GamePicIn03.png" alt=""></div>
+                            <div class="InRight">
+                                <div class="word">
+                                    結合塔防、養成與策略遊戲予一身的《大家一起貓咪大戰爭WEB》，以可愛又奇趣的貓咪角色與各地特色風景與蒐集要素，讓玩家可以率領親手培育的喵星人大軍向世界各地出兵，用各種可愛逗趣的貓咪佔領世界。簡單好上手的操作方式與輕鬆的戰鬥系統，成功擄獲玩家們的芳心。
+                                </div>
+
+                            </div>
+                            <div class="InEsc"><img src="./TGSpicture/cancel.png" alt=""></div>
+
+                        </div>
+                        <div class="InBox">
+                            <div class="InLeft"><img src="./TGSpicture/GamePicIn04.png" alt=""></div>
+                            <div class="InRight">
+                                <div class="word">
+                                    首次加入開放世界要素的《真．三個無雙 8
+                                    中文版》以全新的面貌打造玩家熟悉的三國世界，以系列作有史以來最高自由度，結合改革後的動作要素，打造出系列作品不同風貌，也讓《真．三國無雙 8
+                                    中文版》拿下單機遊戲金獎。
+                                </div>
+
+                            </div>
+                            <div class="InEsc"><img src="./TGSpicture/cancel.png" alt=""></div>
+
+                        </div>
+                        <div class="InBox">
+                            <div class="InLeft"><img src="./TGSpicture/GamePicIn05.png" alt=""></div>
+                            <div class="InRight">
+                                <div class="word">
+                                    以恢宏龐大的古埃及世界為核心，《刺客教條》系列作品第十部《刺客教條：起源》，不僅加入更多動作要素，遊戲舞台這次更來到古代埃及，讓玩家深入瞭解刺客兄弟會的起源故事，同時也讓玩家們讚譽有加，順利拿下遊樂器遊戲金獎。
+                                </div>
+
+                            </div>
+                            <div class="InEsc"><img src="./TGSpicture/cancel.png" alt=""></div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- 流程圖 -->
+                <div class="row event event_2 ">
+                    <div id="step1" class="event2_step  col-12 col-lg-5">STEP 1：<br>於世貿一館、三館展場各大入口與工作人員索取封印任務卡片，便可展開任務。</div>
+                    <div id="step2" class="event2_step  col-12 col-lg-5">STEP
+                        2：<br>對照下方任務地圖，世貿一、三館皆有任務攤位，玩家可以自由選擇任意有「印章小圖示」的攤位進行闖關。
+                    </div>
+                    <div id="step3" class="event2_step  col-12 col-lg-5">STEP 4：<br>回到巴哈攤位完成最終任務，可參加抽獎。</div>
+                    <div id="step4" class="event2_step  col-12 col-lg-5">STEP 3：<br>闖關完成後可獲得過關印章，集滿任意 15 個章後必須回到三館巴哈姆特攤位。</div>
+                </div>
+                <div class="event event_3 active">
+                    <div class="textBar">人氣Show Girl票選</div>
+                    <div class="swiper-container girlSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide" style="background-image:url('./TGSpicture/SG1.jpg')"></div>
+                            <div class="swiper-slide" style="background-image:url('./TGSpicture/SG2.jpg')"></div>
+                            <div class="swiper-slide" style="background-image:url('./TGSpicture/SG3.jpg')"></div>
+                            <div class="swiper-slide" style="background-image:url('./TGSpicture/SG4.jpg')"></div>
+                            <div class="swiper-slide" style="background-image:url('./TGSpicture/SG5.jpg')"></div>
+                            <div class="swiper-slide" style="background-image:url('./TGSpicture/SG6.jpg')"></div>
+                            <div class="swiper-slide" style="background-image:url('./TGSpicture/SG7.jpg')"></div>
+
+
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <div class="event event_4">
+
+                </div>
+
+            </div>
+
+        </div>
+        <button class="knowBottom container">點擊展開參觀資訊</button>
+        <div class="knowList container" data-aos="fade-down">
+            展出時間<br>
+            2020/2/6（四）-2/9（日）<br>
+            門票資訊<br>
+            預購票<br>
+            銷售時間：2019年12月18日（三）00:00~2020年2月5日（三）24:00 <br>
+            銷售票種：<br>
+            <table width="100%" border="5" bordercolor='cornsilk'>
+                <tr>
+                    <td>預購票種</td>
+                    <td>票價</td>
+                    <td>銷售通路</td>
+                    <td>內容</td>
+                </tr>
+                <tr>
+                    <td>預購票</td>
+                    <td>$250元</td>
+                    <td>全家、7-11、萊爾富、博客來、KKTIX</td>
+                    <td>單日票1張</td>
+                </tr>
+                <tr>
+                    <td>獨家限量徽章套票</td>
+                    <td>$300元</td>
+                    <td>全家(限量2,000組))</td>
+                    <td>單日票1張-獨家限量TGS小生物限定徽章一個</td>
+                </tr>
+                <tr>
+                    <td>雙展聯票</td>
+                    <td>$300元 </td>
+                    <td>7-11</td>
+                    <td>台北國際電玩展單日票1張+台北國際書展單日票1張</td>
+                </tr>
+                <tr>
+                    <td>限量四日套票</td>
+                    <td>$1,500元 </td>
+                    <td>KKTIX（限量800組）</td>
+                    <td>單日票4張+排隊證1張+TGS小生物摺疊傘1個</td>
+                </tr>
+            </table>
+            展出對象<br>
+            玩家區參觀對象為一般民眾及所有玩家<br>
+            交通資訊<br>
+            台北南港展覽館1館：台北市南港區經貿二路1號<br>
+            捷運：搭乘板南線或文湖線至捷運南港展覽館站<br>
+            高鐵/台鐵：搭乘至南港車站，再轉乘捷運由捷運南港站搭至南港展覽館站<br>
+            <div id="map"></div>
+        </div>
+        <div id="page3_title">B2B-商務區</div>
+        <div class="bgMask3">
+            <div class="page3 container">
+                <!-- 兩個Hover -->
+                <div class="row">
+                    <div class="B2BfirstPart areaB2B col-12 row is-sticky-wrapper">
+                        <div class="B2B_1 B2BL col-3">
+                            <div class="Lcont">Indie</div>
+                        </div>
+                        <div class="B2BContIndie B2BCont col-9">
+                            <div class="B2BContWord">
+                                <h1>簡介</h1><br>
+                                來自全球的獨立遊戲開發團隊，
+                                結合專屬獨立遊戲開發者的Indie Game Award競賽，
+                                致力於鼓勵與挖掘優秀的獨立遊戲開發者，
+                                將具有創新的優質作品推上國際舞台。<br>
+                                宣傳<br>
+                                A.Indie House活動展位<br>
+                                這是一個專屬於獨立遊戲的展區，
+                                透過遊戲打破語言隔閡、獨特的風格沒有極限、
+                                最直接的玩家互動是《INDIE HOUSE》的特色，
+                                這將會是遊戲宣傳、玩家反饋、國際交流最好的平台<br>
+                                B.網路宣傳<br>
+                                官方網站專題頁面、官方FB粉絲團/Blog/微博發文宣傳<br>
+                                C.實體宣傳<br>
+                                專屬展台背板、專題新聞稿、導覽手冊介紹、平面圖特定標示
+                                <h1>簡介</h1><br>
+                                來自全球的獨立遊戲開發團隊，
+                                結合專屬獨立遊戲開發者的Indie Game Award競賽，
+                                致力於鼓勵與挖掘優秀的獨立遊戲開發者，
+                                將具有創新的優質作品推上國際舞台。<br>
+                                宣傳<br>
+                                A.Indie House活動展位<br>
+                                這是一個專屬於獨立遊戲的展區，
+                                透過遊戲打破語言隔閡、獨特的風格沒有極限、
+                                最直接的玩家互動是《INDIE HOUSE》的特色，
+                                這將會是遊戲宣傳、玩家反饋、國際交流最好的平台<br>
+                                B.網路宣傳<br>
+                                官方網站專題頁面、官方FB粉絲團/Blog/微博發文宣傳<br>
+                                C.實體宣傳<br>
+                                專屬展台背板、專題新聞稿、導覽手冊介紹、平面圖特定標示
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="B2BSecondPart areaB2B col-12 row is-sticky-wrapper">
+                        <div class="B2B_2 B2BL col-3">
+                            <div class="Lcont">B2BZone</div>
+                        </div>
+
+                        <div class="B2BContB2BZone B2BCont col-9">
+                            <div class="B2BContWord">
+                                <h1>簡介</h1><br>
+                                以具規模的遊戲開發商、營運商、金流支付、
+                                行動廣告平台為主要展出陣容，提供參展廠商媒合服務，
+                                現場規劃公用商談室，提供眾多不同類型廠商、
+                                遊戲團隊會面對談、尋找商機。
+                                <h1>簡介</h1><br>
+                                來自全球的獨立遊戲開發團隊，
+                                結合專屬獨立遊戲開發者的Indie Game Award競賽，
+                                致力於鼓勵與挖掘優秀的獨立遊戲開發者，
+                                將具有創新的優質作品推上國際舞台。<br>
+                                宣傳<br>
+                                A.Indie House活動展位<br>
+                                這是一個專屬於獨立遊戲的展區，
+                                透過遊戲打破語言隔閡、獨特的風格沒有極限、
+                                最直接的玩家互動是《INDIE HOUSE》的特色，
+                                這將會是遊戲宣傳、玩家反饋、國際交流最好的平台<br>
+                                B.網路宣傳<br>
+                                官方網站專題頁面、官方FB粉絲團/Blog/微博發文宣傳<br>
+                                C.實體宣傳<br>
+                                專屬展台背板、專題新聞稿、導覽手冊介紹、平面圖特定標示
+                                <h1>簡介</h1><br>
+                                來自全球的獨立遊戲開發團隊，
+                                結合專屬獨立遊戲開發者的Indie Game Award競賽，
+                                致力於鼓勵與挖掘優秀的獨立遊戲開發者，
+                                將具有創新的優質作品推上國際舞台。<br>
+                                宣傳<br>
+                                A.Indie House活動展位<br>
+                                這是一個專屬於獨立遊戲的展區，
+                                透過遊戲打破語言隔閡、獨特的風格沒有極限、
+                                最直接的玩家互動是《INDIE HOUSE》的特色，
+                                這將會是遊戲宣傳、玩家反饋、國際交流最好的平台<br>
+                                B.網路宣傳<br>
+                                官方網站專題頁面、官方FB粉絲團/Blog/微博發文宣傳<br>
+                                C.實體宣傳<br>
+                                專屬展台背板、專題新聞稿、導覽手冊介紹、平面圖特定標示
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="B2Bevent container ">
+                <div class="row">
+
+
+                    <div class="cont3 col-12">
+                        <div class="titleLine01 col-4 col-md-2"></div>
+                        <div class="word col-4 col-md-8">活動</div>
+                        <div class="titleLine02 col-4 col-md-2"></div>
+                    </div>
+
+                    <div class="eventcard1 card col-12 col-md-3" style="width: 18rem;">
+                        <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                        <div class="card-body">
+                            <h5 class="card-title">交流酒會</h5>
+                            <p class="card-text">
+                                主要是邀請相關媒體、同業廠商、相關公協會與政要人士參與的活動，規模等同於一般國際性展覽的開幕典禮，是與台北電腦多媒體展合辦的交流酒會活動。另外在2006年，遊戲之星選拔賽的頒獎典禮與台灣遊戲廠商聯手組成的「遊戲產業振興會」成立大會，也在此活動中一併進行。
+                            </p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="eventcard2 card col-12 col-md-3" style="width: 18rem;">
+                        <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                        <div class="card-body">
+                            <h5 class="card-title">國際展區</h5>
+                            <p class="card-text">
+                                為了與各國廠商及貿易相關公會/協會（特別是自辦電子資訊類展覽的單位）交流，台北市電腦公會也安排國際展區，提供國際廠商進行外銷產品之展示，與相關展覽之宣傳。
+                            </p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-3" style="width: 18rem;">
+                        <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                        <div class="card-body">
+                            <h5 class="card-title">獨立遊戲開發者大獎</h5>
+                            <p class="card-text">2017 Indie Game
+                                Award為專屬於獨立遊戲開發者的競賽，致力於鼓勵與挖掘優秀的獨立遊戲開發者，將具有創新的優質作品推上國際舞台。
+                                由國際專家評審進行評分後產生「最佳劇情、最佳音效、最佳美術、最佳設計、最佳技術、最佳創新、最佳遊戲、最佳人氣」等8個獎項。
+                            </p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- <div class="Application">
+
+        </div> -->
+        <div class="footer">
+            <div class="footup">
+                <div class="logoBox"><img src="./TGSpicture/facebookLogo.png" alt=""></div>
+                <div class="logoBox"><img src="./TGSpicture/igLogo.png" alt=""></div>
+                <div class="logoBox"><img src="./TGSpicture/twitterLogo.png" alt=""></div>
+            </div>
+            <div class="footdown">CopyRight僅供108年跨平台互動設計網站前端實作班學習使用</div>
+        </div>
+
+    </div>
+
+
+</body>
+<script src="./swiper/js/swiper.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+
+<script>
+    AOS.init({
+        easing: 'ease-in-out-sine'
+    });
+</script>
+
+
+<script>
+    var best10Area = document.querySelectorAll('.best10');
+    var best10Picture = document.querySelectorAll('.best10Pic');
+    console.log(best10Area, best10Picture);
+    best10Area.forEach((element, index) => {
+        element.onclick = function () {
+            removeGame();
+            this.classList.add('active');
+            best10Picture[index].classList.add('active');
+        }
+    });
+    function removeGame() {
+        best10Area.forEach((element, index) => {
+
+            element.classList.remove('active');
+            best10Picture[index].classList.remove('active');
+        });
+    }
+
+</script>
+
+
+
+
+
+
+
+
+<script>
+    var gamePicture = document.querySelectorAll('.gamePicture');
+    var InEsc = document.querySelectorAll(".InEsc");
+    // console.log(InEsc);
+    var InBox = document.querySelectorAll(".InBox");
+    gamePicture.forEach((element, index) => {
+        element.onclick = function () {
+            InBox[index].classList.add('active');
+        }
+    });
+    InEsc.forEach((element, index) => {
+        element.onclick = function () {
+            console.log(this);
+            console.log(InBox[index]);
+
+            InBox[index].classList.remove('active');
+        }
+    });
+</script>
+
+<script>
+    var swiper = new Swiper('.Bannerbackground', {
+        slidesPerView: 'auto',
+        loop: true,
+        // spaceBetween: 30,
+        autoplay: {
+            delay: 3500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    });
+    var swiper = new Swiper('.girlSwiper', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        loop: true,
+        slidesPerView: 'auto',
+        coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+        },
+    });
+</script>
+
+
+
+<!-- 地圖 -->
+<script>
+    var map;
+    function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+            center: { lat: 25.0567498, lng: 121.6169894 },
+            zoom: 16
+        });
+    }
+</script>
+<!-- 25.0567498,121.6169894 -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkIsBMXa9tjgc4FhYITLBmei5NbYqUky8&callback=initMap" async
+    defer></script>
+
+
+<!-- 伸縮視窗 -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/jquery/jquery.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".knowBottom").click(function () {
+            $(".knowList").toggle();
+        });
+    });
+</script>
+
+
+<script>
+
+    // var open = querySelectorAll('.knowBottom');
+    // var c = css.sheet;
+    // c.insertRule(".knowBottom.knowBottom::before{background-image: url(./TGSpicture/close.png);}", 0);
+
+</script>
+
+
+<script>
+    var selectItem = document.querySelectorAll('.selectItem');
+    var event = document.querySelectorAll('.event');
+    // console.log(event);
+    // console.log(selectItem);
+
+
+    selectItem.forEach((element, index) => {
+        element.onclick = function () {
+            remove();
+            event[index].classList.add('active');
+            this.classList.add('active');
+        }
+    });
+    function remove() {      //上面呼叫的涵式 作用是先把所有的active都清除後,之後給下面的程式碼再個別加上active
+        selectItem.forEach((element, index) => {  //element是btns裡面的各筆資料  這裡有3筆資料，每一筆都會執行下面的動作            
+            //const btn = btns[index];宣告btn為每一筆按鍵的資料
+            // const cont = conts[index];//宣告cont為conts陣列裡的每一筆資料
+            // console.log(cont)
+            element.classList.remove('active');//element的classList裡面清除 active,這裡的element是btns裡面的各筆資料
+            event[index].classList.remove('active');//cont為conts陣列裡的每一筆資料，classList裡面清除 active
+        });
+    }
+</script>
+
+
+
+<!-- 倒數計時器 -->
+<script language="JavaScript">
+    //設定倒數之標的
+    var DifferenceHour = -1
+    var DifferenceMinute = -1
+    var DifferenceSecond = -1
+    var Tday = new Date("FEB 6, 2020 00:00:00")
+    var daysms = 24 * 60 * 60 * 1000
+    var hoursms = 60 * 60 * 1000
+    var Secondms = 60 * 1000
+    var microsecond = 1000
+
+    function clock() {
+        //取得現在的時間資料
+        var time = new Date()
+        var hour = time.getHours()
+
+        var minute = time.getMinutes()
+        var second = time.getSeconds()
+        var timevalue = "" + ((hour > 12) ? hour - 12 : hour)
+
+        //設定日期格式
+        timevalue += ((minute < 10) ? ":0" : ":") + minute
+        timevalue += ((second < 10) ? ":0" : ":") + second
+        timevalue += ((hour > 12) ? " PM" : " AM")
+
+        //計算現在的時間資料與倒數標的之差異
+        var convertHour = DifferenceHour
+        var convertMinute = DifferenceMinute
+        var convertSecond = DifferenceSecond
+
+        //透過getTime出來會是毫秒的數字
+        var Diffms = Tday.getTime() - time.getTime()
+
+        //根據不同情況以相除得到不同標準的數字
+        DifferenceHour = Math.floor(Diffms / daysms)
+        Diffms -= DifferenceHour * daysms
+        DifferenceMinute = Math.floor(Diffms / hoursms)
+        Diffms -= DifferenceMinute * hoursms
+        DifferenceSecond = Math.floor(Diffms / Secondms)
+        Diffms -= DifferenceSecond * Secondms
+
+        //如果 hour 資料有改變，則 form 那邊也要改變
+        if (convertHour != DifferenceHour) {
+            document.formnow.dd.value = DifferenceHour
+        }
+
+        //如果 Minute 資料有改變，則 form 那邊也要改變
+        if (convertMinute != DifferenceMinute) {
+            document.formnow.hh.value = DifferenceMinute
+        }
+
+        //如果 Second 資料有改變，則 form 那邊也要改變
+        if (convertSecond != DifferenceSecond) {
+            document.formnow.mm.value = DifferenceSecond
+        }
+
+        //如果 Second 資料有改變，則 form 那邊也要改變
+        var dSecs = Math.floor(Diffms / microsecond)
+        document.formnow.ss.value = dSecs
+
+        //每1000毫秒(即1秒)不斷自動呼叫 clock() 以更新秒數資料
+        setTimeout("clock()", 1000)
+    } 
+</script>
+
+</html>
