@@ -465,6 +465,10 @@ html {
           right: 20px;
           bottom: 20px;
           z-index: 10;
+          @media screen and (max-width: 768px) {
+            width: 70px;
+          height: 70px;
+          }
           &:hover {
             background-image: url("./TGSpicture/TOP_hover.png");
           }
@@ -533,7 +537,7 @@ html {
         }
         .timeCountDown {
           position: absolute;
-          width: 300px;
+          width: 100%;
           height: 90px;
           top: 15%;
           left: 50%;
@@ -547,9 +551,10 @@ html {
             tr {
               td {
                 fieldset {
-                  border: 1px solid #025285;
+                  // border: 5px solid #025285;
+                  
                   padding: 5px;
-                  background-color: azure;
+                  // background-color: azure;
                   // border-radius:10px
                   legend {
                     color: #fff;
@@ -559,6 +564,17 @@ html {
                     margin-left: 10px;
                     size: 25px;
                     padding: 2px 6px;
+                    margin: auto;
+                    form {
+                     
+
+                      input {
+                        padding: 20px;
+                        #text{
+                          color: wheat;
+                        }
+                      }
+                    }
                   }
                 }
               }
@@ -736,6 +752,9 @@ html {
                     }
                     @media screen and (max-width: 991px) {
                       font-size: 16px;
+                    }
+                    @media screen and (max-width: 768px) {
+                      font-size: 14px;
                     }
                     @media screen and (max-width: 414px) {
                       font-size: 12px;
@@ -1177,6 +1196,27 @@ html {
           }
 
           .event_4 {
+            .otherEvent{
+              width: 100%;
+              height: 50vh;
+              .swiper-wrapper{
+                .swiper-slide{
+                  display: flex;
+
+                  .otherEventL{
+                    width: 30%;
+                    height: 100%;
+                    color: wheat;
+                  }
+                  .otherEventR{
+                    width: 70%;
+                    height: 100%;
+                    color: wheat;
+
+                  }
+                }
+              }
+            }
           }
         }
       }
@@ -1294,8 +1334,10 @@ html {
           }
         }
         .B2Bevent {
-          height: 50vh;
+          // height: 50vh;
+          padding-bottom: 60px;
           @media screen and (max-width: 768px) {
+            padding-bottom: 30px;
             height: auto;
           }
           .row {
@@ -1424,6 +1466,9 @@ html {
           // height: auto;
           color: white;
           text-align: center;
+          @media screen and (max-width: 768px) {
+            font-size: 13px;
+          }
         }
       }
     }

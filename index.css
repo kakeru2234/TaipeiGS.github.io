@@ -97,6 +97,13 @@ html body .BG_MAIN a .topBottom {
   z-index: 10;
 }
 
+@media screen and (max-width: 768px) {
+  html body .BG_MAIN a .topBottom {
+    width: 70px;
+    height: 70px;
+  }
+}
+
 html body .BG_MAIN a .topBottom:hover {
   background-image: url("./TGSpicture/TOP_hover.png");
 }
@@ -176,7 +183,7 @@ html body .BG_MAIN #banner .Bannerbackground .swiper-wrapper .swiper-slide {
 
 html body .BG_MAIN #banner .timeCountDown {
   position: absolute;
-  width: 300px;
+  width: 100%;
   height: 90px;
   top: 15%;
   left: 50%;
@@ -192,9 +199,7 @@ html body .BG_MAIN #banner .timeCountDown table {
 }
 
 html body .BG_MAIN #banner .timeCountDown table tr td fieldset {
-  border: 1px solid #025285;
   padding: 5px;
-  background-color: azure;
 }
 
 html body .BG_MAIN #banner .timeCountDown table tr td fieldset legend {
@@ -205,6 +210,15 @@ html body .BG_MAIN #banner .timeCountDown table tr td fieldset legend {
   margin-left: 10px;
   size: 25px;
   padding: 2px 6px;
+  margin: auto;
+}
+
+html body .BG_MAIN #banner .timeCountDown table tr td fieldset legend form input {
+  padding: 20px;
+}
+
+html body .BG_MAIN #banner .timeCountDown table tr td fieldset legend form input #text {
+  color: wheat;
 }
 
 html body .BG_MAIN #banner .logoBox {
@@ -432,6 +446,12 @@ html body .BG_MAIN .bgMask1 .BG_1_2 #page1_2 .title1_2 .Introduce .introText .co
 @media screen and (max-width: 991px) {
   html body .BG_MAIN .bgMask1 .BG_1_2 #page1_2 .title1_2 .Introduce .introText .cont {
     font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html body .BG_MAIN .bgMask1 .BG_1_2 #page1_2 .title1_2 .Introduce .introText .cont {
+    font-size: 14px;
   }
 }
 
@@ -980,6 +1000,29 @@ html body .BG_MAIN .page2 .eventBox .event_3.active .girlSwiper .swiper-wrapper 
   }
 }
 
+html body .BG_MAIN .page2 .eventBox .event_4 .otherEvent {
+  width: 100%;
+  height: 50vh;
+}
+
+html body .BG_MAIN .page2 .eventBox .event_4 .otherEvent .swiper-wrapper .swiper-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html body .BG_MAIN .page2 .eventBox .event_4 .otherEvent .swiper-wrapper .swiper-slide .otherEventL {
+  width: 30%;
+  height: 100%;
+  color: wheat;
+}
+
+html body .BG_MAIN .page2 .eventBox .event_4 .otherEvent .swiper-wrapper .swiper-slide .otherEventR {
+  width: 70%;
+  height: 100%;
+  color: wheat;
+}
+
 html body .BG_MAIN .knowBottom {
   -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.33);
           box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.33);
@@ -1102,11 +1145,12 @@ html body .BG_MAIN .bgMask3 .page3 .row .areaB2B .B2BCont {
 }
 
 html body .BG_MAIN .bgMask3 .B2Bevent {
-  height: 50vh;
+  padding-bottom: 60px;
 }
 
 @media screen and (max-width: 768px) {
   html body .BG_MAIN .bgMask3 .B2Bevent {
+    padding-bottom: 30px;
     height: auto;
   }
 }
@@ -1251,6 +1295,12 @@ html body .BG_MAIN .footer .footdown {
   width: 100%;
   color: white;
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  html body .BG_MAIN .footer .footdown {
+    font-size: 13px;
+  }
 }
 
 @-webkit-keyframes example {
