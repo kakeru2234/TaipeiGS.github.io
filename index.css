@@ -1015,12 +1015,14 @@ html body .BG_MAIN .page2 .eventBox .event_4 .otherEvent .swiper-wrapper .swiper
   width: 30%;
   height: 100%;
   color: wheat;
+  background-color: #05052f;
 }
 
 html body .BG_MAIN .page2 .eventBox .event_4 .otherEvent .swiper-wrapper .swiper-slide .otherEventR {
   width: 70%;
   height: 100%;
   color: wheat;
+  background-color: #05052f;
 }
 
 html body .BG_MAIN .knowBottom {
