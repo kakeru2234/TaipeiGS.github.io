@@ -499,6 +499,12 @@ html body .BG_MAIN .bgMask1 .BG_1_2 #page1_2 .title1_2 .Introduce img {
   height: auto;
 }
 
+@media screen and (max-width: 768px) {
+  html body .BG_MAIN .bgMask1 .BG_1_2 #page1_2 .title1_2 .Introduce img {
+    opacity: 10%;
+  }
+}
+
 html body .BG_MAIN .bgMask1 .BG_1_2 #page1_2 .title1_2 .Introduce .introText {
   height: 100%;
   width: 100%;
@@ -513,6 +519,12 @@ html body .BG_MAIN .bgMask1 .BG_1_2 #page1_2 .title1_2 .Introduce .introText {
   padding: 30px;
   color: burlywood;
   opacity: 0%;
+}
+
+@media screen and (max-width: 768px) {
+  html body .BG_MAIN .bgMask1 .BG_1_2 #page1_2 .title1_2 .Introduce .introText {
+    opacity: 100%;
+  }
 }
 
 html body .BG_MAIN .bgMask1 .BG_1_2 #page1_2 .title1_2 .Introduce .introText .cont {

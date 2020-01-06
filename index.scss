@@ -788,13 +788,18 @@ html {
                 // transition: 0.5s;
                 &:hover img {
                   opacity: 0.1;
+                  
                 }
                 &:hover .introText {
                   opacity: 100%;
+                  
                 }
                 img {
                   width: 100%;
                   height: auto;
+                  @media screen and (max-width: 768px) {
+                    opacity: 10%;
+                  }
                 }
                 .introText {
                   height: 100%;
@@ -808,6 +813,9 @@ html {
                   padding: 30px;
                   color: burlywood;
                   opacity: 0%;
+                  @media screen and (max-width: 768px) {
+                    opacity: 100%;
+                  }
                   .cont {
                     font-size: 25px;
                     padding: 10px;
