@@ -206,6 +206,7 @@ html body .BG_MAIN nav .navSelector .navSlectorImg .navSelectbox {
   display: none;
   position: absolute;
   top: 60px;
+  height: 90vh;
   width: 100%;
   background-color: #fff;
   opacity: 0.8;
@@ -425,6 +426,12 @@ html body .BG_MAIN .bgMask1 .BG_1_2 #page1_2 {
   }
 }
 
+@media screen and (max-width: 768px) {
+  html body .BG_MAIN .bgMask1 .BG_1_2 #page1_2 {
+    height: 60vh;
+  }
+}
+
 html body .BG_MAIN .bgMask1 .BG_1_2 #page1_2 .wordIn {
   width: 100%;
   height: 100%;
@@ -636,7 +643,6 @@ html body .BG_MAIN #page2_title {
 }
 
 html body .BG_MAIN .page2 {
-  margin-top: 100px;
   padding: 20px;
 }
 
@@ -676,24 +682,23 @@ html body .BG_MAIN .page2 .topSelecter .selectItem.active {
 
 @media screen and (max-width: 991px) {
   html body .BG_MAIN .page2 .topSelecter .selectItem.active {
-    width: 100%;
+    background-image: url("./TGSpicture/selectBarLittle.png");
+    width: 50%;
     padding: 28px;
     font-size: 40px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   html body .BG_MAIN .page2 .topSelecter .selectItem.active {
-    width: 100%;
     height: auto;
     padding: 20px;
-    font-size: 50px;
+    font-size: 25px;
   }
 }
 
 @media screen and (max-width: 490px) {
   html body .BG_MAIN .page2 .topSelecter .selectItem.active {
-    width: 100%;
     height: unset;
     padding: 21px;
     font-size: 20px;
@@ -702,10 +707,9 @@ html body .BG_MAIN .page2 .topSelecter .selectItem.active {
 
 @media screen and (max-width: 414px) {
   html body .BG_MAIN .page2 .topSelecter .selectItem.active {
-    width: 100%;
     height: unset;
-    padding: 17px;
-    font-size: 17px;
+    padding: 15px;
+    font-size: 15px;
   }
 }
 
@@ -730,24 +734,23 @@ html body .BG_MAIN .page2 .selectItem {
 
 @media screen and (max-width: 991px) {
   html body .BG_MAIN .page2 .selectItem {
-    width: 100%;
+    background-image: url("./TGSpicture/selectBarNoSelectLittle.png");
+    width: 50%;
     padding: 28px;
     font-size: 40px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   html body .BG_MAIN .page2 .selectItem {
-    width: 100%;
     height: auto;
     padding: 20px;
-    font-size: 50px;
+    font-size: 25px;
   }
 }
 
 @media screen and (max-width: 490px) {
   html body .BG_MAIN .page2 .selectItem {
-    width: 100%;
     height: unset;
     padding: 21px;
     font-size: 20px;
@@ -756,7 +759,6 @@ html body .BG_MAIN .page2 .selectItem {
 
 @media screen and (max-width: 414px) {
   html body .BG_MAIN .page2 .selectItem {
-    width: 100%;
     height: unset;
     padding: 17px;
     font-size: 17px;
@@ -765,6 +767,12 @@ html body .BG_MAIN .page2 .selectItem {
 
 html body .BG_MAIN .page2 .eventBox {
   height: 70%;
+}
+
+@media screen and (max-width: 1200px) {
+  html body .BG_MAIN .page2 .eventBox {
+    margin-top: 20px;
+  }
 }
 
 html body .BG_MAIN .page2 .eventBox .event.active {
@@ -802,6 +810,11 @@ html body .BG_MAIN .page2 .eventBox .event_1.active .row .leftArea {
       flex-wrap: wrap;
 }
 
+html body .BG_MAIN .page2 .eventBox .event_1.active .row .leftArea h2 {
+  text-align: center;
+  width: 100%;
+}
+
 html body .BG_MAIN .page2 .eventBox .event_1.active .row .leftArea .best10Area {
   width: 100%;
 }
@@ -823,6 +836,12 @@ html body .BG_MAIN .page2 .eventBox .event_1.active .row .leftArea .best10Pictur
 html body .BG_MAIN .page2 .eventBox .event_1.active .row .leftArea .best10Picture .best10Pic.active img {
   width: 100%;
   height: auto;
+}
+
+@media screen and (max-width: 991px) {
+  html body .BG_MAIN .page2 .eventBox .event_1.active .row .leftArea .best10Picture .best10Pic.active img {
+    padding: 30px 0;
+  }
 }
 
 html body .BG_MAIN .page2 .eventBox .event_1.active .row .leftArea .best10Picture .best10Pic {
@@ -995,6 +1014,14 @@ html body .BG_MAIN .page2 .eventBox .event_2.active .event2_step:hover {
   }
 }
 
+@media screen and (max-width: 991px) {
+  html body .BG_MAIN .page2 .eventBox .event_2.active #step1 {
+    -webkit-box-ordinal-group: 12;
+        -ms-flex-order: 11;
+            order: 11;
+  }
+}
+
 html body .BG_MAIN .page2 .eventBox .event_2.active #step1:before {
   content: "";
   position: absolute;
@@ -1010,6 +1037,14 @@ html body .BG_MAIN .page2 .eventBox .event_2.active #step1:before {
 @media screen and (max-width: 991px) {
   html body .BG_MAIN .page2 .eventBox .event_2.active #step1:before {
     display: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  html body .BG_MAIN .page2 .eventBox .event_2.active #step2 {
+    -webkit-box-ordinal-group: 13;
+        -ms-flex-order: 12;
+            order: 12;
   }
 }
 
@@ -1031,6 +1066,14 @@ html body .BG_MAIN .page2 .eventBox .event_2.active #step2:before {
   }
 }
 
+@media screen and (max-width: 991px) {
+  html body .BG_MAIN .page2 .eventBox .event_2.active #step3 {
+    -webkit-box-ordinal-group: 15;
+        -ms-flex-order: 14;
+            order: 14;
+  }
+}
+
 html body .BG_MAIN .page2 .eventBox .event_2.active #step3:before {
   content: "";
   position: absolute;
@@ -1046,6 +1089,14 @@ html body .BG_MAIN .page2 .eventBox .event_2.active #step3:before {
 @media screen and (max-width: 991px) {
   html body .BG_MAIN .page2 .eventBox .event_2.active #step3:before {
     display: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  html body .BG_MAIN .page2 .eventBox .event_2.active #step4 {
+    -webkit-box-ordinal-group: 14;
+        -ms-flex-order: 13;
+            order: 13;
   }
 }
 
@@ -1118,11 +1169,17 @@ html body .BG_MAIN .page2 .eventBox .event_4 .otherEvent .swiper-wrapper .swiper
       -ms-flex-align: center;
           align-items: center;
   background-color: #05052f;
-  overflow: scroll;
+}
+
+@media screen and (max-width: 768px) {
+  html body .BG_MAIN .page2 .eventBox .event_4 .otherEvent .swiper-wrapper .swiper-slide .otherEventR {
+    overflow: scroll;
+  }
 }
 
 html body .BG_MAIN .page2 .eventBox .event_4 .otherEvent .swiper-wrapper .swiper-slide .otherEventR .Rword {
   color: wheat;
+  height: 100%;
   padding: 25px;
   font-size: 30px;
 }
