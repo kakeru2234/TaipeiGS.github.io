@@ -426,7 +426,7 @@ html body .BG_MAIN .bgMask1 .BG_1_2 #page1_2 {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   html body .BG_MAIN .bgMask1 .BG_1_2 #page1_2 {
     height: 60vh;
   }
@@ -615,18 +615,17 @@ html body .BG_MAIN .bgMask1 .BG_1_2 #page1_2 .title1_2 .Other_List .listAllItem 
 
 @media screen and (max-width: 1200px) {
   html body .BG_MAIN .bgMask1 .BG_1_2 #page1_2 .title1_2 .Other_List .listAllItem .listIn {
-    font-size: 22px;
+    font-size: 23px;
   }
 }
 
 @media screen and (max-width: 991px) {
   html body .BG_MAIN .bgMask1 .BG_1_2 #page1_2 .title1_2 .Other_List .listAllItem .listIn {
     margin: 7px;
-    font-size: 19px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   html body .BG_MAIN .bgMask1 .BG_1_2 #page1_2 .title1_2 .Other_List .listAllItem .listIn {
     margin: 5px;
     font-size: 15px;
@@ -1262,7 +1261,7 @@ html body .BG_MAIN .knowBottom:before {
   content: "";
   position: absolute;
   top: -4%;
-  right: -2%;
+  right: 2%;
   background-image: url(./TGSpicture/open.png);
   background-size: contain;
   background-repeat: no-repeat;

@@ -752,7 +752,7 @@ html {
             @media screen and (max-width: 991px) {
               height: 40vh;
             }
-            @media screen and (max-width: 768px) {
+            @media screen and (max-width: 767px) {
               height: 60vh;
             }
             .wordIn {
@@ -873,13 +873,13 @@ html {
                       text-decoration: none;
                     }
                     @media screen and (max-width: 1200px) {
-                      font-size: 22px;
+                      font-size: 23px;
                     }
                     @media screen and (max-width: 991px) {
                       margin: 7px;
-                      font-size: 19px;
+                      // font-size: 19px;
                     }
-                    @media screen and (max-width: 768px) {
+                    @media screen and (max-width: 767px) {
                       margin: 5px;
                       font-size: 15px;
                     }
@@ -1395,7 +1395,7 @@ html {
           content: "";
           position: absolute;
           top: -4%;
-          right: -2%;
+          right: 2%;
           background-image: url(./TGSpicture/open.png);
           background-size: contain;
           background-repeat: no-repeat;
