@@ -1080,6 +1080,7 @@ html {
               }
               .rightArea {
                 height: 100%;
+                padding: 0;
                 // border: midnightblue solid 1px;
                 display: flex;
                 flex-wrap: wrap;
@@ -1090,9 +1091,19 @@ html {
                   height: 25%;
                   // margin: 30px;
                   border: wheat solid 3px;
+                  @media screen and (max-width:414px) {
+                    border: wheat solid 1px;
+                  }
                   .GamePrize {
                     text-align: center;
                     color: #dcdfc5;
+                    font-size: 20px;
+                    @media screen and (max-width:768px) {
+                      font-size: 16px;
+                    }
+                    @media screen and (max-width:414px) {
+                      font-size: 10px;
+                    }
                   }
                   .gamePicture {
                     width: 100%;

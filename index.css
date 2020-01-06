@@ -862,6 +862,7 @@ html body .BG_MAIN .page2 .eventBox .event_1.active .row .leftArea .best10Pictur
 
 html body .BG_MAIN .page2 .eventBox .event_1.active .row .rightArea {
   height: 100%;
+  padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -879,9 +880,28 @@ html body .BG_MAIN .page2 .eventBox .event_1.active .row .rightArea .bestGameAre
   border: wheat solid 3px;
 }
 
+@media screen and (max-width: 414px) {
+  html body .BG_MAIN .page2 .eventBox .event_1.active .row .rightArea .bestGameArea {
+    border: wheat solid 1px;
+  }
+}
+
 html body .BG_MAIN .page2 .eventBox .event_1.active .row .rightArea .bestGameArea .GamePrize {
   text-align: center;
   color: #dcdfc5;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  html body .BG_MAIN .page2 .eventBox .event_1.active .row .rightArea .bestGameArea .GamePrize {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  html body .BG_MAIN .page2 .eventBox .event_1.active .row .rightArea .bestGameArea .GamePrize {
+    font-size: 10px;
+  }
 }
 
 html body .BG_MAIN .page2 .eventBox .event_1.active .row .rightArea .bestGameArea .gamePicture {
