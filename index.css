@@ -1316,14 +1316,12 @@ html body .BG_MAIN .bgMask3 {
 }
 
 html body .BG_MAIN .bgMask3 .page3 {
-  height: 40vh;
   padding-top: 100px;
   margin-bottom: 100px;
 }
 
 html body .BG_MAIN .bgMask3 .page3 .row {
   height: 100%;
-  overflow-y: scroll;
 }
 
 html body .BG_MAIN .bgMask3 .page3 .row .areaB2B {
@@ -1343,6 +1341,7 @@ html body .BG_MAIN .bgMask3 .page3 .row .areaB2B .B2BL {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-radius: 10px;
 }
 
 html body .BG_MAIN .bgMask3 .page3 .row .areaB2B .B2BL .Lcont {
@@ -1352,8 +1351,21 @@ html body .BG_MAIN .bgMask3 .page3 .row .areaB2B .B2BL .Lcont {
   font-size: 30px;
 }
 
+html body .BG_MAIN .bgMask3 .page3 .row .areaB2B .B2B_1 {
+  border-bottom: 5px blue solid;
+}
+
 html body .BG_MAIN .bgMask3 .page3 .row .areaB2B .B2BCont {
   background-color: #fff;
+  border-radius: 10px;
+}
+
+html body .BG_MAIN .bgMask3 .page3 .row .areaB2B .B2BCont .B2BContWord {
+  padding: 20px;
+}
+
+html body .BG_MAIN .bgMask3 .page3 .row .areaB2B .B2BContIndie {
+  border-bottom: 5px blue solid;
 }
 
 html body .BG_MAIN .bgMask3 .B2Bevent {
@@ -1575,7 +1587,7 @@ html body .BG_MAIN .footer .footdown {
 
 @-webkit-keyframes cardChange1 {
   0% {
-    background-image: url("./TGSpicture/TGSPlace1.jpg");
+    background-image: url("./TGSpicture/TGSPlace5.jpg");
   }
   33% {
     background-image: url("./TGSpicture/TGSPlace4.jpg");
@@ -1584,13 +1596,13 @@ html body .BG_MAIN .footer .footdown {
     background-image: url("./TGSpicture/TGSPlace6.jpg");
   }
   100% {
-    background-image: url("./TGSpicture/TGSPlace1.jpg");
+    background-image: url("./TGSpicture/TGSPlace3.jpg");
   }
 }
 
 @keyframes cardChange1 {
   0% {
-    background-image: url("./TGSpicture/TGSPlace1.jpg");
+    background-image: url("./TGSpicture/TGSPlace5.jpg");
   }
   33% {
     background-image: url("./TGSpicture/TGSPlace4.jpg");
@@ -1599,13 +1611,13 @@ html body .BG_MAIN .footer .footdown {
     background-image: url("./TGSpicture/TGSPlace6.jpg");
   }
   100% {
-    background-image: url("./TGSpicture/TGSPlace1.jpg");
+    background-image: url("./TGSpicture/TGSPlace3.jpg");
   }
 }
 
 @-webkit-keyframes cardChange2 {
   0% {
-    background-image: url("./TGSpicture/TGSPlace2.jpg");
+    background-image: url("./TGSpicture/TGSPlace4.jpg");
   }
   33% {
     background-image: url("./TGSpicture/TGSPlace5.jpg");
@@ -1614,13 +1626,13 @@ html body .BG_MAIN .footer .footdown {
     background-image: url("./TGSpicture/TGSPlace3.jpg");
   }
   100% {
-    background-image: url("./TGSpicture/TGSPlace2.jpg");
+    background-image: url("./TGSpicture/TGSPlace6.jpg");
   }
 }
 
 @keyframes cardChange2 {
   0% {
-    background-image: url("./TGSpicture/TGSPlace2.jpg");
+    background-image: url("./TGSpicture/TGSPlace4.jpg");
   }
   33% {
     background-image: url("./TGSpicture/TGSPlace5.jpg");
@@ -1629,7 +1641,7 @@ html body .BG_MAIN .footer .footdown {
     background-image: url("./TGSpicture/TGSPlace3.jpg");
   }
   100% {
-    background-image: url("./TGSpicture/TGSPlace2.jpg");
+    background-image: url("./TGSpicture/TGSPlace6.jpg");
   }
 }
 /*# sourceMappingURL=index.css.map */

@@ -1449,12 +1449,12 @@ html {
         // z-index: -10;
         opacity: 0.5;
         .page3 {
-          height: 40vh;
+          // height: 40vh;
           padding-top: 100px;
           margin-bottom: 100px;
           .row {
             height: 100%;
-            overflow-y: scroll;
+            // overflow-y: scroll;
             .areaB2B {
               // overflow: hidden;
               display: flex;
@@ -1468,16 +1468,29 @@ html {
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                border-radius: 10px;
                 .Lcont {
-                  position: -webkit-sticky;
+                  // position: -webkit-sticky;
                   position: sticky;
                   top: 40%;
                   font-size: 30px;
                 }
               }
+              .B2B_1{
+                border-bottom: 5px blue solid;
+              }
               .B2BCont {
                 // height: 100%;
                 background-color: #fff;
+                border-radius: 10px;
+                .B2BContWord{
+                  padding: 20px;
+                  
+                }
+              }
+              .B2BContIndie{
+                border-bottom: 5px blue solid;
+
               }
             }
           }
@@ -1650,7 +1663,7 @@ html {
 }
 @keyframes cardChange1 {
   0% {
-    background-image: url("./TGSpicture/TGSPlace1.jpg");
+    background-image: url("./TGSpicture/TGSPlace5.jpg");
   }
   33% {
     background-image: url("./TGSpicture/TGSPlace4.jpg");
@@ -1659,12 +1672,12 @@ html {
     background-image: url("./TGSpicture/TGSPlace6.jpg");
   }
   100% {
-    background-image: url("./TGSpicture/TGSPlace1.jpg");
+    background-image: url("./TGSpicture/TGSPlace3.jpg");
   }
 }
 @keyframes cardChange2 {
   0% {
-    background-image: url("./TGSpicture/TGSPlace2.jpg");
+    background-image: url("./TGSpicture/TGSPlace4.jpg");
   }
   33% {
     background-image: url("./TGSpicture/TGSPlace5.jpg");
@@ -1673,6 +1686,6 @@ html {
     background-image: url("./TGSpicture/TGSPlace3.jpg");
   }
   100% {
-    background-image: url("./TGSpicture/TGSPlace2.jpg");
+    background-image: url("./TGSpicture/TGSPlace6.jpg");
   }
 }
