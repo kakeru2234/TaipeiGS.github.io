@@ -1458,13 +1458,16 @@ html {
             .areaB2B {
               // overflow: hidden;
               display: flex;
+              padding-right: 0;
+              padding-left: 30px;
               // position: -webkit-sticky;
               // position: sticky;
               // top: 0;
               .B2BL {
                 // height: 100%;
 
-                background-color: #fff;
+                background-color: rgb(72, 34, 238);
+                color: white;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -1478,6 +1481,12 @@ html {
               }
               .B2B_1{
                 border-bottom: 5px blue solid;
+              }
+              .B2B_2{
+                @media screen and (max-width: 991px) {
+                 border-bottom: 5px blue solid;
+                }
+                
               }
               .B2BCont {
                 // height: 100%;

@@ -1328,10 +1328,13 @@ html body .BG_MAIN .bgMask3 .page3 .row .areaB2B {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-right: 0;
+  padding-left: 30px;
 }
 
 html body .BG_MAIN .bgMask3 .page3 .row .areaB2B .B2BL {
-  background-color: #fff;
+  background-color: #4822ee;
+  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1353,6 +1356,12 @@ html body .BG_MAIN .bgMask3 .page3 .row .areaB2B .B2BL .Lcont {
 
 html body .BG_MAIN .bgMask3 .page3 .row .areaB2B .B2B_1 {
   border-bottom: 5px blue solid;
+}
+
+@media screen and (max-width: 991px) {
+  html body .BG_MAIN .bgMask3 .page3 .row .areaB2B .B2B_2 {
+    border-bottom: 5px blue solid;
+  }
 }
 
 html body .BG_MAIN .bgMask3 .page3 .row .areaB2B .B2BCont {
