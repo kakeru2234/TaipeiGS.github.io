@@ -1054,6 +1054,7 @@ html {
                 }
                 .best10Area {
                   width: 100%;
+                  cursor: pointer;
                   .best10.active {
                     background-color: blanchedalmond;
                     color: blue;
@@ -1178,6 +1179,7 @@ html {
                   width: 5%;
                   img {
                     width: 100%;
+                    cursor: pointer;
                     height: auto;
                   }
                 }

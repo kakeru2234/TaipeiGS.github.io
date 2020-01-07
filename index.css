@@ -828,6 +828,7 @@ html body .BG_MAIN .page2 .eventBox .event_1.active .row .leftArea h2 {
 
 html body .BG_MAIN .page2 .eventBox .event_1.active .row .leftArea .best10Area {
   width: 100%;
+  cursor: pointer;
 }
 
 html body .BG_MAIN .page2 .eventBox .event_1.active .row .leftArea .best10Area .best10.active {
@@ -998,6 +999,7 @@ html body .BG_MAIN .page2 .eventBox .event_1.active .row .InBox.active .InEsc {
 
 html body .BG_MAIN .page2 .eventBox .event_1.active .row .InBox.active .InEsc img {
   width: 100%;
+  cursor: pointer;
   height: auto;
 }
 
